@@ -10,14 +10,14 @@ Welcome to ecs-sync's documentation!
    :hidden:
    :maxdepth: 2
 
-   performance.rst
-   installation.rst
-   config.rst
-   storage_plugins.rst
-   init_ui.rst
-   sync_ui.rst
-   cli.rst
-   running_sync.rst
-   troubleshooting.rst
+   doc_files/performance.rst
+   doc_files/installation.rst
+   doc_files/config.rst
+   doc_files/storage_plugins.rst
+   doc_files/init_ui.rst
+   doc_files/sync_ui.rst
+   doc_files/cli.rst
+   doc_files/running_sync.rst
+   doc_files/troubleshooting.rst
 
 .. include:: README.rst
