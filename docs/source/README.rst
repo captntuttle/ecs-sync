@@ -1,6 +1,3 @@
-Welcome to the ecs-sync wiki!
-=============================
-
 What is ecs-sync?
 -----------------
 
