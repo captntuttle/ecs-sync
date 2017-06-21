@@ -10,7 +10,6 @@ Welcome to ecs-sync's documentation!
    :hidden:
    :maxdepth: 2
 
-   *.rst
+   installation.rst
 
-.. include::
-   README.rst
+.. include:: README.rst
