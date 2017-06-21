@@ -1,3 +1,6 @@
+CLI Syntax
+==========
+
 The following is the complete syntax of the CLI arguments for 3.0. Note
 that you can also generate this text simply by running:
 ``java -jar ecs-sync-3.0.jar --help``

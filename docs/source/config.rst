@@ -1,3 +1,6 @@
+Creating Config File
+====================
+
 We recommend running ecs-sync by submitting an XML configuration file as
 a job. To this end we’ve built and included a new XML generator tool.
 This tool will generate a template configuration file to include the
@@ -6,7 +9,7 @@ options passed to it. Running the generator constructs an XML file that
 has all of the available options set to their defaults (if available).
 
 Please note:
-============
+------------
 
 -  This tool does not create a complete configuration, only a template
    that must be expanded and/or modified before it is ready to be run.
@@ -27,7 +30,7 @@ Please note:
    value.
 
 The new generator is part of the ecs-sync-ctl tool and invoked like so:
-=======================================================================
+-----------------------------------------------------------------------
 
 ::
 

@@ -1,3 +1,6 @@
+Initializing the UI
+===================
+
 (this page applies to ecs-sync 3.1+) ## Quick Start
 
 To quickly start using the ecs-sync UI, load the home page in a browser

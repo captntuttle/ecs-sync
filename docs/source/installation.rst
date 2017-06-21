@@ -1,3 +1,6 @@
+Installing the Service
+======================
+
 The ecs-sync distribution comes with scripts to aid in configuring a
 Linux VM to run ecs-sync (and optionally the UI) as a service. In 3.0,
 this will be the standard configuration for all methods of running the
@@ -72,7 +75,7 @@ is outlined below.
       accessible location on the VM.
 
 Updates and vulnerabilities
-===========================
+---------------------------
 
 Note that our pre-built OVA releases are based on CentOS minimal and,
 prior to release, are updated with the latest OS patches. However, there

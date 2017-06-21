@@ -1,3 +1,6 @@
+Running a Sync
+==============
+
 (this page applies to ecs-sync 3.0+) # Starting the ecs-sync service
 
 The `ecs-sync
@@ -23,7 +26,7 @@ with ps:
 ``ps -ef | grep java | grep ecs-sync``
 
 Preparing the Configuration File
-================================
+--------------------------------
 
 Ecs-sync is designed to be run from a submitted xml file that contains
 all necessary options, addresses, and credentials. This file can be
@@ -38,7 +41,7 @@ the correct information, you're ready to begin your sync.
 XML (this is true for legacy-cli and UI as well)
 
 Starting a Sync
-===============
+---------------
 
 To start a sync, you should run the following:
 
@@ -60,7 +63,7 @@ the scripts in your path. The scripts are located in the ova/bin/
 directory of the distribution.
 
 Alternate (legacy) CLI execution
---------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can also execute a sync in a separate process by passing CLI
 arguments directly to the ecs-sync jar. Prior to 3.0, this was the
@@ -78,7 +81,7 @@ using an XML file. Please refer to the `full CLI
 syntax <CLI-Syntax-(3.0)>`__ for all available options.
 
 Checking status
-===============
+---------------
 
 To check status of all syncs, use the --list-jobs command like so:
 
@@ -95,7 +98,7 @@ To list detailed status of a specific job, use the --status command:
 Where <job-id> is the job ID of the job.
 
 Changing Thread Count
-=====================
+---------------------
 
 To change thread count use the --set-threads command:
 
@@ -107,7 +110,7 @@ thread count, running threads are allowed to finish their transfers
 before being shut down.
 
 Pausing/Resuming/Stopping
-=========================
+-------------------------
 
 To pause a job:
 
@@ -131,7 +134,7 @@ This is behaviorally the same as pause, except that you cannot resume
 the job.
 
 Deleting a job
-==============
+--------------
 
 You may notice over time that there are many jobs listed by the service
 and it may become confusing to sort them all. For this reason, it is
