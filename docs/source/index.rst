@@ -20,4 +20,4 @@ Welcome to ecs-sync's documentation!
    doc_files/running_sync.rst
    doc_files/troubleshooting.rst
 
-.. include:: README.rst
+.. include:: doc_files/README.rst
