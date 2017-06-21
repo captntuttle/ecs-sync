@@ -1,7 +1,7 @@
-Running a Sync
-==============
+Starting the ecs-sync Service
+=============================
 
-(this page applies to ecs-sync 3.0+) # Starting the ecs-sync service
+(this page applies to ecs-sync 3.0+)
 
 The `ecs-sync
 OVA <https://object.ecstestdrive.com/share/ECS-Sync%20OVA%20-%203.1.4.ova?AWSAccessKeyId=130820690509421904%40ecstestdrive.emc.com&Expires=1527085429&Signature=Zp8Y3JwLRB9VsMPkpRLaUw0%2BABs%3D>`__

@@ -46,8 +46,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'ecs-sync'
-copyright = u'2017, DellEMC'
-author = u'DellEMC'
+copyright = u'2017, Dell EMC'
+author = u'Dell EMC'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
