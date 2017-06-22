@@ -1,0 +1,4 @@
+name: ecs-sync docs
+dependencies:
+  - pip:
+      - sphinxcontrib-fulltoc
