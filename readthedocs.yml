@@ -3,7 +3,7 @@ formats:
   - none
 
 # directory to the requirements file
-requirements_file: docs/requirements.yml
+requirements_file: docs/requirements.txt
 
 # python requirements
 python:
