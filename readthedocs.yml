@@ -1,0 +1,15 @@
+# no extra formats
+formats:
+  - none
+
+# directory to the requirements file
+# requirements_file: filename_here
+
+# python requirements
+python:
+  setup_py_install: true
+  pip_install: true
+
+#  extra_requirements:
+#    - tests
+#    - docs
