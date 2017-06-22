@@ -1,11 +1,19 @@
-# no extra formats
+### formats to publish
+### no extra formats, the formats we need are published by default
 formats:
   - none
 
-# directory to the requirements file
+### directory to the requirements file
+### this file specifies the pip addons we want installed
 requirements_file: docs/requirements.txt
 
-# python requirements
+### conda requirements
+### not using conda atm
+#conda:
+  #file: environment.yml
+
+### python requirements
+### tell mvirtualenv that we need python things to do python stuff
 python:
   setup_py_install: true
   pip_install: true
